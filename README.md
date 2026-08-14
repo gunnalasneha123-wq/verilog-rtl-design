@@ -1,5 +1,5 @@
 # verilog-rtl-design
-Verilog RTL design projects and simulation work using Questa Si
+Verilog RTL design projects and simulation work using QuestaSim
 This repository contains the Verilog designs and simulations I worked on while learning Digital Logic Design and RTL Design using Verilog and QuestaSim.
 I really enjoyed working on both combinational and sequential circuits and exploring how the concepts I learned can be implemented at the RTL level.
 Starting from the basics and gradually working through different designs helped me understand Verilog more clearly and improve my problem-solving and debugging skills. Each circuit I implemented gave me a better understanding of how digital systems are designed and simulated.
