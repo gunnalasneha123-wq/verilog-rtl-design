@@ -1,0 +1,21 @@
+module counter(
+input clk,
+input [3:0] T,
+output reg [3:0] Q,
+output reg [3:0] Q_bar,
+output reg [3:0] Qout);
+integer i;
+always @(posedge clk)
+for(i = 0; i<= 15; i = i+1)
+{T} = i;
+if (T <= 0)
+begin
+for ( Q = 0; Q <= 15; Q = Q+1) begin
+Q <= 4'b0000;
+Q_bar = ~Q;
+end
+initial 
+begin 
+Qout = 4'b1111;
+end
+endmodule

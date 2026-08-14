@@ -1,0 +1,14 @@
+module counter_tb;
+reg clk;
+wire [4:0] T;
+reg [4:0] Q;
+reg [4:0] Q_bar;
+reg [4:0] Qout;
+counter dut ( .clk(), .T(), .Q(), .Q_bar(), .Qout() );
+initial begin
+$monitor ( "Time = %0t Q = %b T = %b Q_bar = %b Qout = %b ", $time,T,Q,Q_bar,Qout);
+for ( i = 0; i <= 15; i = 1+1 ) begin
+{T } = i; #10;
+end
+end
+endmodule
